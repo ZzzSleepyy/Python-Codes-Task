@@ -14,7 +14,7 @@ ran = random.randint(1,2)
 
 
 name1 = []
-name2 = []
+name2 = [] # I WOULD'VE JUST PUT NAME1 & 2 IN ONE SINGLE LIST BUT IDK WHY I DIDNT XD
 
 title()
 
