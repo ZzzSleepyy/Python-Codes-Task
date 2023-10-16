@@ -1,0 +1,20 @@
+import os
+
+students = []
+
+while True:
+    student_name = input("Enter student name (or 'q' to quit): ")
+
+    if student_name.lower() == 'q':
+        os.system("cls")
+        break
+
+    student_grade = int(input("Enter student grade: "))
+    
+    os.system("cls")
+
+    students.append((student_name, student_grade))
+
+    for i, student in enumerate(students, start=1):
+        name, grade = student  
+        print(f"{i}. Name: {name}, Grade: {grade}")
