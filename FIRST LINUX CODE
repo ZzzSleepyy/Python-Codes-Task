@@ -1,0 +1,13 @@
+
+list_of_persons = []
+
+def run():
+	if user == "ls":
+		print(list_of_persons)
+	else:
+		list_of_persons.append(user)	
+
+while True:
+	user = input("What's your name?(ls): ")	
+	
+	run()
